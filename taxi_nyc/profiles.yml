@@ -1,0 +1,11 @@
+taxi_nyc:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      method: token
+      catalog: hive_metastore
+      schema: default
+      host: 
+      http_path: 
+      token: 
